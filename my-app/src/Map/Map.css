@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.titleMap {
+  margin: 5vh 0vh 2vh 5vh;
+  font-size: 1.4em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  width: 15.5%;
+  border-bottom: solid 1px black;
+  }
+.fa-map-marker {
+  color:rgb(162, 18, 35);
+}
+.mapCenter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#map {
+  margin: 0;
+  height: 50vh;
+  width: 100%;
+  background-color: grey;
+}

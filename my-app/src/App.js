@@ -1,13 +1,28 @@
 import React, { Component } from 'react';
+
+
 import Carrousel from './carrousel/Carrousel.jsx';
+
+import Description from './components/description/Description';
+import Map from './components/map/Map';
+import Card from './Card/Card.jsx';
 
 class App extends Component {
   render() {
     return (
+
       <div className="App">
         <Carrousel />
      
-      </div>
+  
+
+
+  
+      		<Description />
+        	<Card />
+        	<Map />
+        </div>
+
     );
   }
 }
