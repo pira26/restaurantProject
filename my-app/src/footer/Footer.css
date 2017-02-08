@@ -1,0 +1,27 @@
+.container-fluid {
+	margin: 0;
+	padding: 0;
+
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 120px;
+	width: 100%;
+	background-color: #B0BEC5;
+}
+
+.adresse {
+	margin-left: 30px;
+	line-height:5px;
+}
+
+.menu-foot ul li {
+	display:inline;
+}
+
+.menu-foot img {
+	height: 40px;
+	width: 40px;
+	margin-right: 30px;
+}
