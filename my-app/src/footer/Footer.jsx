@@ -10,7 +10,7 @@ class Footer extends React.Component {
 
 	render(){
 		return(
-			<div className="container-fluid">
+			<div id="contactpos" className="container-fluid">
 
 				<div className="adresse">
 
@@ -33,9 +33,9 @@ class Footer extends React.Component {
 
 					<ul>
 						<li className="reseauxcont">contact:</li>
-						<li><a href="#" className="ficon"><i className="fa fa-home fa-2x"></i></a></li>
-						<li><a href="#" className="ficon"><i className="fa fa-map-marker fa-2x"></i></a></li>
-						<li><a href="#" className="ficon"><i className="fa fa-mobile fa-2x"></i></a></li>
+						<li><a href="#acceuilpos" className="ficon"><i className="fa fa-home fa-2x"></i></a></li>
+						<li><a href="#mappos" className="ficon"><i className="fa fa-map-marker fa-2x"></i></a></li>
+						<li><a href="#contactpos" className="ficon"><i className="fa fa-mobile fa-2x"></i></a></li>
 					</ul>
 
 				</div>

@@ -1,30 +1,22 @@
 import React, {Component} from 'react';
 import './Navbar.css';
-
 import Panier from '../img/panier.jpg'
 
 
 class Navbar extends React.Component {
-componentDidMount() {
-	function scrollWin() {
-	    window.scroll(0, 400);
-	}
-}
+
 	render(){
 		return(
-			<div className="container">
-
+			<div id="acceuilpos" className="container">
 				<div className="logo">
-
 				    <a href="#" className="logotexte"><img className="logo" src="http://www.cuisinetamere.fr/wp-content/themes/ctm/img/logo.png"></img></a>
-
 			    </div>
 
 				<div className="menu">
 					<ul>
-						<li><a onclick="scrollWin()" href="#">Accueil</a></li>
-						<li><a href="#">Carte</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="#acceuilpos">Accueil</a></li>
+						<li><a href="#mappos">Carte</a></li>
+						<li><a href="#contactpos">Contact</a></li>
 					</ul>
 				</div>
 

@@ -28,7 +28,7 @@ class Map extends React.Component {
   render() {
 
     return (
-      <div>
+      <div id="mappos">
         <div className="titleMap"><i className="fa fa-map-marker" aria-hidden="true"></i> Ou nous trouver:</div>
         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
           <div ref="mapCanvas" style={{width:'100%', height:'400px'}}></div>
