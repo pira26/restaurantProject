@@ -25,7 +25,7 @@ class Navbar extends React.Component {
 				</div>
 
 				<button className="panier">
-					<a href="#"><img src={Panier} alt="le panier du client"/></a>
+					<a href="#"><i className="fa fa-shopping-basket fa-2x"></i></a>
 					<a href="#" className="monnaie">0 €</a>
 				</button>
 				<img className="likeornot" src ="http://www.onaimeoupas.fr/wp-content/uploads/2014/02/logonex.png"></img>

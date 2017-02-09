@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Card.css';
+import contenu from '../components/data.js'
 // import $ from 'jquery';
 
 class Card extends React.Component {
@@ -7,8 +8,9 @@ class Card extends React.Component {
   render() {
 
     return (
+       
       <div>
-      <div className="Card">
+        <div className="Card">
         <div className="img img1"></div>
         <div className="text">
           <div className="title">Poulet au poulet 100% poulet<span className="price">17,20€</span></div>
@@ -33,6 +35,9 @@ class Card extends React.Component {
         <div className="add"><i className="fa fa-plus-circle" aria-hidden="true"></i></div>
       </div>
     </div>
+ 
+      
+    
 
 );
 }
