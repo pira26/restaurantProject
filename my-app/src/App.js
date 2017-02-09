@@ -27,15 +27,26 @@ class App extends Component {
      const { modalOpen} = this.state;
     return (
       <div className="App">
-
-
-      	<Modal bg="#222" show={ modalOpen } 
+        
+        <Modal bg="#222" show={ modalOpen } 
            onClose={ this.toggleModal.bind(this) }>
           <div className="content">
-
-
+              <div className="monPanier">Mon Panier</div>
+                <div className="choiceContent">
+                  <div className="plat">
+                    <ul>Plats
+                      <li><span> - </span> Plat</li>
+                    </ul></div>
+                  <div className="quantite">Quantités</div>
+                  <div className="prix">Prix</div>
+                  <div className="delete">Suppr</div>
+                </div>
+                <div className="total"></div>
+                <button className="cmd">Commander</button>
           </div>
         </Modal>
+
+      	
           
         <button className="openBtn" 
           onClick={this.toggleModal.bind(this)}>
@@ -52,6 +63,11 @@ class App extends Component {
 
 
         <Navbar />
+
+
+
+
+
         <Carrousel />
       	<Description />
         <Card />
