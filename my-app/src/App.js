@@ -25,6 +25,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+      	<Navbar />
 
 
 
@@ -42,7 +43,7 @@ class App extends Component {
 
 
 
-      
+
         <Carrousel />
      
   
@@ -55,6 +56,8 @@ class App extends Component {
       		<Description />
         	<Card />
         	<Map />
+
+        	<Footer />
         </div>
 
 
