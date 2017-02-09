@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-/*AIzaSyD-6XvCVeVBRstAnJv62TWu1HYqICn42Ko*/
+
 body {
     background-color: rgb(230,230,230);
 }
@@ -12,6 +12,7 @@ body {
   padding-left: 30px;
   border-bottom: solid 1px grey;
 }
+
 .img {
   height: 30vh;
   width: 25%;
@@ -20,15 +21,6 @@ body {
   background-size: cover;
   background-position: center;
   }
-.img1 {
-  background-image: url('http://www.epicurien.be/img/recettes-cuisines/20130928_poulet_morilles-500.jpg');
-}
-.img2 {
-  background-image: url('https://i1.wp.com/cotesoleils.fr/wp-content/uploads/2015/06/tajine-agneau-et-pruneaux-algc3a9rie1.jpg');
-}
-.img3 {
-  background-image: url('http://scrat.hellocoton.fr/img/guide/recette-ma-salade-tiede-de-chou-kale-et-lentilles-patates-douces-et-saumon-fume-18911644.jpg');
-}
 .text {
   margin-left: 20px;
   height: 200px;
@@ -47,8 +39,9 @@ body {
   color:rgb(162, 18, 35);
 }
 .price {
-  position: absolute;
-  margin-left: 16%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
   color: black;
 }
 .desc {

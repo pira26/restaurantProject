@@ -1,31 +1,60 @@
 import React, { Component } from 'react';
-
-
-
 import Navbar from './navbar/Navbar.jsx';
 import Footer from './footer/Footer.jsx';
-
-
-
-
-
 import Carrousel from './carrousel/Carrousel.jsx';
-
-
-
-
 import Description from './components/description/Description';
 import Map from './Map/Map.jsx';
 import Card from './Card/Card.jsx';
-
-
+import Modal from './Modal/Modal.jsx';
 
 
 class App extends Component {
+
+
+   constructor(props) {
+    super(props);
+    // Init state
+    this.state = { modalOpen: props.opened};
+  }
+  
+  // Toggle Modal visibility
+  toggleModal(content) {
+    const state = this.state.modalOpen;
+    // Update state: modal visibility and its content
+    this.setState({ modalOpen: !state });
+  }
+
   render() {
+     const { modalOpen} = this.state;
     return (
       <div className="App">
-      	<Navbar />
+
+        
+        <Modal bg="#222" show={ modalOpen } 
+           onClose={ this.toggleModal.bind(this) }>
+          <div className="content">
+              <div className="monPanier">Mon Panier</div>
+                <div className="choiceContent">
+                  <div className="plat">
+                    <ul>Plats
+                      <li><span> - </span> Plat</li>
+                    </ul></div>
+                  <div className="quantite">Quantités</div>
+                  <div className="prix">Prix</div>
+                  <div className="delete">Suppr</div>
+                </div>
+                <div className="total"></div>
+                <button className="cmd">Commander</button>
+          </div>
+        </Modal>
+
+      	
+          
+        <button className="openBtn" 
+          onClick={this.toggleModal.bind(this)}>
+          <a href="#"><i className="fa fa-shopping-basket fa-2x"></i></a>
+          <a href="#" className="monnaie">0 €</a>
+        </button>
 
 
 
@@ -35,36 +64,13 @@ class App extends Component {
 
 
 
-
-
-
-
-
-
-
-
-
+        <Navbar />
         <Carrousel />
-     
-  
-
-
-
-
-
-
-      		<Description />
-        	<Card />
-        	<Map />
-
-        	<Footer />
-        </div>
-
-
-
-
-
-
+      	<Description />
+        <Card />
+        <Map />
+        <Footer /> 
+      </div>
 
     );
   }

@@ -1,6 +1,5 @@
-body {
-	background-color: #4DD0E1;
-}
+@import url('https://fonts.googleapis.com/css?family=Allura|Raleway|Yesteryear');
+
 .likeornot {
 	position: absolute;
 	margin-top: 15%;
@@ -24,8 +23,9 @@ body {
 }
 .logo {
 	height: 150%;
-	margin-top: 5%;
-	margin-left: -10%;
+	margin-top: 2%;
+	margin-left: -9%;
+	z-index: 4;
 }
 /*.logo .logotexte {
 	font-style: 100px;
@@ -35,43 +35,50 @@ body {
 	display:inline;
 	list-style-type: none;
 	margin-left: 20px;
-	font-family: 'Merriweather', serif;
+	font-size: 2em;
+	font-family: 'Allura', cursive;
 }
 
 .menu ul li a {
 	text-decoration:none;
-	color: #000;
+	color:white;
+	transition: 0.5s;
 }
 
 .menu ul li a:hover {
-	color: #fff;
+	color: black;
 	border-bottom: 2px solid #fff;
+	transition: 0.5s;
 }
 
 .panier {
 	height: 40px;
-	width: 80px;
+	width: 180px;
 	display: flex;
 	justify-content: center;
-	background-color: #4DD0E1;
 	margin-top: 0.2rem;
-	border: 1px solid black;
+	background-color:rgb(162, 18, 35);
+	border: 1px solid rgb(162, 18, 35);
 	border-radius: 5px;
 	padding-left: 10px;
 	padding-top: ;
 }
 
 .panier:hover {
-	background-color: #FF7043;
 }
 
 .panier a {
 	text-decoration:none;
 	font-weight: bold;
+	color:white;
+	font-size:1.2em;
+	transition: 0.5s;
 }
 
 .panier a:hover {
-	color: #fff;
+	color: rgb(245, 136, 136);
+	font-size: 1.3em;
+	transition: 0.5s;
 }
 
 .panier img {
@@ -82,6 +89,12 @@ body {
 }
 
 .panier .monnaie {
-	padding-top: 10px;
-	color: #000;
+	margin-right: -50%;
+	margin-top: -5px;
+	font-size: 0.95em;
+	color: white;
+}
+.panier .monnaie:hover {
+	color: black;
+	font-size: 0.95em;
 }
