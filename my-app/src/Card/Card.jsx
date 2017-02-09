@@ -9,7 +9,7 @@ class Card extends React.Component {
 
     return (
        
-      {/*<div>
+      <div>
         <div className="Card">
         <div className="img img1"></div>
         <div className="text">
@@ -34,18 +34,8 @@ class Card extends React.Component {
         </div>
         <div className="add"><i className="fa fa-plus-circle" aria-hidden="true"></i></div>
       </div>
-    </div>*/}
-    <div>
-       contenu.carte.map(menu =>
-        <img src={menu.image} className="img"/>
-        <div className="text">
-          <Title={menu.name} className="title" />
-          <p={menu.description} className="desc" />
-          <p={menu.price} className="price" />
-        </div>
-        <div className="add"><i className="fa fa-plus-circle" aria-hidden="true"></i></div>
-        )
     </div>
+ 
       
     
 

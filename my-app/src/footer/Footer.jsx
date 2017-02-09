@@ -22,9 +22,10 @@ class Footer extends React.Component {
 				<div className="menu-foot">
 
 					<ul>
-						<li><a href="#" className="lien1"><img src={accueil} alt="l'accueil du site"/></a></li>
-						<li><a href="#" className="lien2"><img src={carte} alt="la carte de localisation"/></a></li>
-						<li><a href="#" className="lien3"><img src={contact} alt="le contact du restaurant"/></a></li>
+						<li><a href="#" className="lien1"><i className="fa fa-home fa-3x"></i></a></li>
+						<li><a href="#" className="lien2"><i className="fa fa-map-marker fa-3x"></i>
+</a></li>
+						<li><a href="#" className="lien3"><i className="fa fa-mobile fa-3x"></i></a></li>
 					</ul>
 					
 				</div>
