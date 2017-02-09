@@ -10,6 +10,7 @@ import Modal from './Modal/Modal.jsx';
 
 class App extends Component {
 
+
    constructor(props) {
     super(props);
     // Init state
@@ -27,6 +28,7 @@ class App extends Component {
      const { modalOpen} = this.state;
     return (
       <div className="App">
+
         
         <Modal bg="#222" show={ modalOpen } 
            onClose={ this.toggleModal.bind(this) }>
@@ -63,11 +65,6 @@ class App extends Component {
 
 
         <Navbar />
-
-
-
-
-
         <Carrousel />
       	<Description />
         <Card />
