@@ -12,7 +12,7 @@ class Navbar extends React.Component {
 
 				<div className="logo">
 
-				    <a href="#" className="logotexte"><img className="logo" src="http://www.cuisinetamere.fr/wp-content/themes/ctm/img/logo.png"></img></a>
+				    <a href="#" className="logotexte"><img className="logo" src="http://www.cuisinetamere.fr/wp-content/themes/ctm/img/logo.png"/></a>
 
 			    </div>
 
