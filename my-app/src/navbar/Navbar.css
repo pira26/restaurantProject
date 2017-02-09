@@ -23,8 +23,9 @@
 }
 .logo {
 	height: 150%;
-	margin-top: 5%;
-	margin-left: -10%;
+	margin-top: 2%;
+	margin-left: -9%;
+	z-index: 4;
 }
 /*.logo .logotexte {
 	font-style: 100px;
