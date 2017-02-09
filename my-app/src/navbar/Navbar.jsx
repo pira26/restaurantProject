@@ -9,13 +9,10 @@ class Navbar extends React.Component {
 		return(
 			<div id="acceuilpos" className="container">
 				<div className="logo">
-<<<<<<< HEAD
+
 				    <a href="#" className="logotexte"><img className="logo" src="http://www.cuisinetamere.fr/wp-content/themes/ctm/img/logo.png"></img></a>
-=======
 
-				    <a href="#" className="logotexte"><img className="logo" src="http://www.cuisinetamere.fr/wp-content/themes/ctm/img/logo.png"/></a>
 
->>>>>>> bcbc46164e66b7fbe6b83c4e7be777823eff688a
 			    </div>
 
 				<div className="menu">
