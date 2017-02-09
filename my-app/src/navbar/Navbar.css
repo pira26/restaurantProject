@@ -1,25 +1,32 @@
 body {
 	background-color: #4DD0E1;
 }
-
+.likeornot {
+	position: absolute;
+	margin-top: 15%;
+}
 .container {
 	margin:0;
 	padding: 0;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	height: 90px;
+	height: 50px;
 	width: 100%;
-	background-color: #3F51B5; 
+	background-color:rgb(162, 18, 35);
 }
 
 .logotexte {
 	color: #fff;
 	text-decoration: none;
 	font-family: 'Indie Flower', cursive;
-	font-style: 2rem;
+	font-size: 1em;
 }
-
+.logo {
+	height: 150%;
+	margin-top: 5%;
+	margin-left: -10%;
+}
 /*.logo .logotexte {
 	font-style: 100px;
 }*/
@@ -32,12 +39,12 @@ body {
 }
 
 .menu ul li a {
-	text-decoration:none; 
+	text-decoration:none;
 	color: #000;
 }
 
 .menu ul li a:hover {
-	color: #fff; 
+	color: #fff;
 	border-bottom: 2px solid #fff;
 }
 
@@ -59,7 +66,7 @@ body {
 }
 
 .panier a {
-	text-decoration:none; 
+	text-decoration:none;
 	font-weight: bold;
 }
 
