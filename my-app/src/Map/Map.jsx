@@ -5,7 +5,15 @@ import './Map.css';
 class Map extends React.Component {
 	componentDidMount() {
 		const map = new window.google.maps.Map(this.refs.mapCanvas, {
-    			center: {lat: 48.866667, lng: 2.333333},
+    	// const optionMarqueur = {
+     //    position: maCarte.getCenter(),
+     //    map: maCarte
+
+            
+     //  };
+          //const marqueur = new window.google.maps.Marker();
+          //marqueur.setOptions(optionMarqueur);
+          center: {lat: 48.866667, lng: 2.333333},
     			zoom: 12
   		});
 	}
