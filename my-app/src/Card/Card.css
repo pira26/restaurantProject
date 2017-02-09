@@ -20,15 +20,6 @@ body {
   background-size: cover;
   background-position: center;
   }
-.img1 {
-  background-image: url('http://www.epicurien.be/img/recettes-cuisines/20130928_poulet_morilles-500.jpg');
-}
-.img2 {
-  background-image: url('https://i1.wp.com/cotesoleils.fr/wp-content/uploads/2015/06/tajine-agneau-et-pruneaux-algc3a9rie1.jpg');
-}
-.img3 {
-  background-image: url('http://scrat.hellocoton.fr/img/guide/recette-ma-salade-tiede-de-chou-kale-et-lentilles-patates-douces-et-saumon-fume-18911644.jpg');
-}
 .text {
   margin-left: 20px;
   height: 200px;
