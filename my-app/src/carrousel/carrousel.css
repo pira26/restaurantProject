@@ -18,7 +18,7 @@
 	list-style:none;
 	margin:0;
 	padding:0;
-	animation: carrousel 15s linear infinite;      
+	animation: carrousel 15s linear infinite;
     -moz-animation:carousel 15s linear infinite;
     -webkit-animation:carousel 15s linear infinite;
 }
@@ -33,7 +33,7 @@
     53%   { opacity: 0; }
     57.13% 	{ margin-left:-200%; opacity: 1;}
     71.41% 	{ margin-left:-200%; opacity: 1;}
-   	75%   { opacity: 0; } 
+   	75%   { opacity: 0; }
     85.69% 	{ margin-left:-300%; opacity: 1;}
     100% 	{ margin-left:-300%; opacity: 1;}
 
