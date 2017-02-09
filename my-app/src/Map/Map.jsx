@@ -13,7 +13,7 @@ class Map extends React.Component {
     //   } else {
     //     console.log("Oops, nous n'avons pas du JSON!");
     // }
-    const myLatLng = {lat: 48.866667, lng: 2.333333};
+    const myLatLng = {lat: 48.8541282, lng: 2.4368220000000065};
 		const map = new window.google.maps.Map(this.refs.mapCanvas, {
       center: myLatLng,
     	zoom: 12
