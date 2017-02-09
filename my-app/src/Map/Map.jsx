@@ -4,19 +4,27 @@ import './Map.css';
 
 class Map extends React.Component {
 	componentDidMount() {
+    // fetch("https://maps.googleapis.com/maps/api/geocode/json?address=51+Rue+de+Vincennes+93100+Montreuil,+FR&key=AIzaSyD-6XvCVeVBRstAnJv62TWu1HYqICn42Ko").then(function(response) {
+    //   var contentType = response.headers.get("content-type");
+    //   if(contentType && contentType.indexOf("application/json") !== -1) {
+    //     return response.json().then(function(json) {
+    //     // traitement du JSON
+    //     });
+    //   } else {
+    //     console.log("Oops, nous n'avons pas du JSON!");
+    // }
+    const myLatLng = {lat: 48.866667, lng: 2.333333};
 		const map = new window.google.maps.Map(this.refs.mapCanvas, {
-    	// const optionMarqueur = {
-     //    position: maCarte.getCenter(),
-     //    map: maCarte
-
-            
-     //  };
-          //const marqueur = new window.google.maps.Marker();
-          //marqueur.setOptions(optionMarqueur);
-          center: {lat: 48.866667, lng: 2.333333},
-    			zoom: 12
-  		});
+      center: myLatLng,
+    	zoom: 12
+  	});
+    const marker = new window.google.maps.Marker({
+      position: myLatLng,
+      map: map,
+      title: "La Bonne Bouffe"
+    });
 	}
+
   render() {
 
     return (
