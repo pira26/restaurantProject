@@ -13,7 +13,9 @@ const styles = {
 		flexDirection:'row',
 		alignItems:'center',
 		justifyContent:'center',
-		color:'rgb(162, 18, 35)'
+		color:'rgb(162, 18, 35)',
+		fontFamily:'Allura',
+		fontSize:'1em'
 	}
 }
 

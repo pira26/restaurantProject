@@ -47,8 +47,9 @@ body {
   color:rgb(162, 18, 35);
 }
 .price {
-  position: absolute;
-  margin-left: 16%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
   color: black;
 }
 .desc {

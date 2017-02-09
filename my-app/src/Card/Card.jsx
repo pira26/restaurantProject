@@ -8,7 +8,7 @@ class Card extends React.Component {
   render() {
 
     return (
-       
+
       <div>
        { /*<div className="Card">
                <div className="img img1"></div>
@@ -38,17 +38,15 @@ class Card extends React.Component {
             <div className="Card">
             <img src={menu.image} className="img"/>
             <div className="text">
-              <div className="title">{menu.name}
-                <span className="price">{menu.price}</span>
-              </div>
+              <div className="title">{menu.name}<span className="price">{menu.price}</span></div>
               <div className="desc">{menu.description}</div>
             </div>
             <div className="add"><i className="fa fa-plus-circle" aria-hidden="true"></i></div>
             </div>
-            )} 
+            )}
     </div>
-      
-    
+
+
 
 );
 }
