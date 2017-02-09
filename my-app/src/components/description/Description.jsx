@@ -12,7 +12,8 @@ const styles = {
 		display:'flex',
 		flexDirection:'row',
 		alignItems:'center',
-		justifyContent:'center'
+		justifyContent:'center',
+		color:'rgb(162, 18, 35)'
 	}
 }
 
@@ -29,7 +30,7 @@ class Description extends React.Component {
 					<h1 style={{paddingRight:'15px', paddingLeft:"15px", fontStyle:'italic'}}>{contenu.name}</h1>
 					<i className="fa fa-cutlery"></i>
 				</div>
-				<p style={{color:'grey'}}>{contenu.description}</p>	
+				<p style={{color:'grey'}}>{contenu.description}</p>
 			</div>
 		)
 	}

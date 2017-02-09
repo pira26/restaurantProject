@@ -3,23 +3,19 @@ import './Map.css';
 // import $ from 'jquery';
 
 class Map extends React.Component {
-
-// compnentDidMount(){
-//   var map;
-//   function initMap() {
-//   map = new google.maps.Map(document.getElementById('map'), {
-//   center: {lat: -34.397, lng: 150.644},
-//   zoom: 8
-//   });
-//   }
-// }
+	componentDidMount() {
+		const map = new window.google.maps.Map(this.refs.mapCanvas, {
+    			center: {lat: 48.866667, lng: 2.333333},
+    			zoom: 12
+  		});
+	}
   render() {
 
     return (
       <div>
         <div className="titleMap"><i className="fa fa-map-marker" aria-hidden="true"></i> Ou nous trouver:</div>
-        <div className="mapCenter">
-          <div id="map"></div>
+        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div ref="mapCanvas" style={{width:'100%', height:'400px'}}></div>
         </div>
      </div>
 
