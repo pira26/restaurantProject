@@ -12,7 +12,7 @@ class Navbar extends React.Component {
 
 				<div className="logo">
 
-				    <a href="#" className="logotexte">La bonne bouffe</a>
+				    <a href="#" className="logotexte"><img className="logo" src="http://www.cuisinetamere.fr/wp-content/themes/ctm/img/logo.png"></img></a>
 
 			    </div>
 
@@ -28,7 +28,7 @@ class Navbar extends React.Component {
 					<a href="#"><img src={Panier} alt="le panier du client"/></a>
 					<a href="#" className="monnaie">0 €</a>
 				</button>
-
+				<img className="likeornot" src ="http://www.onaimeoupas.fr/wp-content/uploads/2014/02/logonex.png"></img>
 			</div>
 	    )
 
