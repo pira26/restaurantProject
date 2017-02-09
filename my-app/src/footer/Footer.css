@@ -4,9 +4,9 @@
 
 	position: relative;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
-	height: 120px;
+	height: 90px;
 	width: 100%;
 	background-color: #B0BEC5;
 }
@@ -16,12 +16,30 @@
 	line-height:5px;
 }
 
-.menu-foot ul li {
-	display:inline;
+.menu-foot {
+	display: inline-block;
+	padding-right: 25px;
 }
 
-.menu-foot img {
-	height: 40px;
-	width: 40px;
-	margin-right: 30px;
+.menu-foot ul li {
+	display:inline;
+	margin-right: 20px;
 }
+
+.menu-foot ul li .ficon {
+	color: #B71C1C;
+}
+
+.reseaux ul li {
+	display:inline;
+	margin-right: 15px;
+	height: 10px;
+	width: 10px;
+}
+
+.reseaux ul li .ricon {
+	color: #000;
+}
+
+
+

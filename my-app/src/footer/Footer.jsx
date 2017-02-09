@@ -19,13 +19,21 @@ class Footer extends React.Component {
 
 			    </div>
 
+			    <div className="reseaux">
+					<ul>
+						<li><a href="#" className="ricon"><i className="fa fa-facebook-square fa-2x"></i></a></li>
+						<li><a href="#" className="ricon"><i className="fa fa-twitter-square fa-2x"></i></a></li>
+						<li><a href="#" className="ricon"><i className="fa fa-instagram fa-2x"></i></a></li>
+					</ul>
+
+			    </div>
+
 				<div className="menu-foot">
 
 					<ul>
-						<li><a href="#" className="lien1"><i className="fa fa-home fa-3x"></i></a></li>
-						<li><a href="#" className="lien2"><i className="fa fa-map-marker fa-3x"></i>
-</a></li>
-						<li><a href="#" className="lien3"><i className="fa fa-mobile fa-3x"></i></a></li>
+						<li><a href="#" className="ficon"><i className="fa fa-home fa-2x"></i></a></li>
+						<li><a href="#" className="ficon"><i className="fa fa-map-marker fa-2x"></i></a></li>
+						<li><a href="#" className="ficon"><i className="fa fa-mobile fa-2x"></i></a></li>
 					</ul>
 					
 				</div>
