@@ -24,23 +24,25 @@ import Card from './Card/Card.jsx';
 class App extends Component {
   render() {
     return (
-
-
-
-
-      <div>
-      	<Navbar />
-      	<Footer />
-      </div>
-
-
-
-    	<div>
-
-
-
-
       <div className="App">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
         <Carrousel />
      
   
