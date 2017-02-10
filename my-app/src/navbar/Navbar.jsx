@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './Navbar.css';
-import Panier from '../img/panier.jpg'
+import Panier from '../img/panier.jpg';
 
 
 class Navbar extends React.Component {
@@ -22,10 +22,9 @@ class Navbar extends React.Component {
 					</ul>
 				</div>
 
-				<button className="panier">
-					<a href="#" className="monnaie">MON PANIER <i className="fa fa-shopping-basket fa-2x"></i></a>
-				</button>
+
 				<img className="likeornot" src ="http://www.onaimeoupas.fr/wp-content/uploads/2014/02/logonex.png"></img>
+
 			</div>
 	    )
 

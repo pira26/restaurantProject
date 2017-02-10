@@ -3,12 +3,13 @@
 .likeornot {
 	position: absolute;
 	margin-top: 15%;
+	margin-left: 8%;
 }
 .container {
 	margin:0;
 	padding: 0;
 	display: flex;
-	justify-content: space-around;
+	justify-content: flex-start;
 	align-items: center;
 	height: 50px;
 	width: 100%;
@@ -23,8 +24,9 @@
 }
 .logo {
 	height: 150%;
-	margin-top: 2%;
-	margin-left: -9%;
+	margin-top: 4%;
+	margin-left: 0%;
+	padding-right: 18.5%;
 	z-index: 4;
 }
 /*.logo .logotexte {
