@@ -47,12 +47,15 @@ class App extends Component {
                 <button className="cmd">Commander</button>
           </div>
         </Modal>
-  
+
+
+
         <button className="openBtn"
           onClick={this.toggleModal.bind(this)}>
           <a href="#"><i className="fa fa-shopping-basket fa-2x"></i></a>
           <a href="#" className="monnaie">0 €</a>
         </button>
+
         <Navbar />
         <Carrousel />
       	<Description />

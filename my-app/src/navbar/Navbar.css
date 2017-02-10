@@ -57,11 +57,9 @@
 	display: flex;
 	justify-content: center;
 	margin-top: 0.2rem;
-	background-color:rgb(162, 18, 35);
-	border: 1px solid rgb(162, 18, 35);
-	border-radius: 5px;
+	background-color:transparent;
+	border-style: none;
 	padding-left: 10px;
-	padding-top: ;
 }
 
 .panier:hover {

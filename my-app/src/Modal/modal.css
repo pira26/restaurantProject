@@ -1,0 +1,96 @@
+/*--------------MODAL----------*/
+
+html, body > div {
+  height: 100%;
+}
+.modalWrapper {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  justify-content: center;
+  color: white;
+  z-index:1000;
+}
+
+.modal-item {
+  align-self: center;
+}
+
+.content {
+  width: 600px;
+  height: 600px;
+  background-color:lightgrey;
+}
+
+.closeBtn {
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+  background-color:red;
+  cursor: pointer;
+}
+
+.openBtn {
+  width:50px;
+  height:50px;
+  background-color:red;
+  margin: 10px;
+}
+/*-------------PANIER--------------*/
+.monPanier{
+  text-align:center;
+  font-size:30px;
+}
+
+.choiceContent{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  width:500px;
+  height:300px;
+  border:1px solid black;
+  margin:auto;
+}
+
+.cmd{
+  background-color:green;
+  color:white;
+  font-size:20px;
+  width:300px;
+  height:50px;
+  border-style: none;
+  border-radius: 10px;
+}
+
+.total{
+  width:500px;
+  height:100px;
+  margin:auto;
+  margin-top:5px;
+  border-top:2px solid white;
+}
+.plat{
+  width:300px;
+  height:30px;
+  border:1px solid black;
+}
+.quantite{
+  width:50px;
+  height:30px;
+  border:1px solid black;
+}
+.prix{
+  width:50px;
+  height:30px;
+  border:1px solid black;
+}
+.delete{
+  width:50px;
+  height:30px;
+  border:1px solid black;
+}
+
+
