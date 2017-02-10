@@ -16,7 +16,7 @@ class App extends Component {
     // Init state
     this.state = { modalOpen: props.opened};
   }
-  
+
   // Toggle Modal visibility
   toggleModal(content) {
     const state = this.state.modalOpen;
@@ -29,8 +29,8 @@ class App extends Component {
     return (
       <div className="App">
 
-        
-        <Modal bg="#222" show={ modalOpen } 
+
+        <Modal bg="#222" show={ modalOpen }
            onClose={ this.toggleModal.bind(this) }>
           <div className="content">
               <div className="monPanier">Mon Panier</div>
@@ -47,29 +47,18 @@ class App extends Component {
                 <button className="cmd">Commander</button>
           </div>
         </Modal>
-
-      	
-          
-        <button className="openBtn" 
+  
+        <button className="openBtn"
           onClick={this.toggleModal.bind(this)}>
           <a href="#"><i className="fa fa-shopping-basket fa-2x"></i></a>
           <a href="#" className="monnaie">0 €</a>
         </button>
-
-
-
-
-
-
-
-
-
         <Navbar />
         <Carrousel />
       	<Description />
         <Card />
         <Map />
-        <Footer /> 
+        <Footer />
       </div>
 
     );
