@@ -8,13 +8,20 @@ import Card from './Card/Card.jsx';
 import Modal from './Modal/Modal.jsx';
 import ModalContent from './Modal/ModalContent.jsx';
 
+
 class App extends Component {
 
-   constructor(props) {
+  constructor(props) {
     super(props);
     // Init state
-    this.state = { modalOpen: props.opened};
+    
+    this.state = { 
+      modalOpen: props.opened,
+      cardSelected: []
+    };
   }
+
+  addItemCard = (menu) => this.setState({cardSelected: [menu, ...this.state.cardSelected] });
 
   // Toggle Modal visibility
   toggleModal(content) {
@@ -31,7 +38,7 @@ class App extends Component {
       <div className="App">
         <Modal bg="#222" show={ modalOpen }
            onClose={ this.toggleModal.bind(this) }>
-        <ModalContent />
+        <ModalContent cardSelected={this.state.cardSelected} />
         </Modal>
 
         <button className="openBtn"
@@ -42,7 +49,7 @@ class App extends Component {
         <Navbar />
         <Carrousel />
       	<Description />
-        <Card />
+        <Card addItemCard = {this.addItemCard} />
         <Map />
         <Footer />
       </div>

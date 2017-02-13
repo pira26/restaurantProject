@@ -14,7 +14,7 @@ class ModalContent extends React.Component {
                 <div className="choiceWrapper">
                   <div className="plat">
                       <ul>
-                        <li>Plat</li>
+                        <p>{JSON.stringify(this.props.cardSelected[0])}</p>
                         <li></li>
                         <li></li>
                         <li></li>
