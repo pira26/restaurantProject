@@ -8,6 +8,7 @@ class ModalContent extends React.Component {
    
     return (
       <div className="content">
+          <a href="acceuilpos" className="closingX"><span>X</span></a>
               <div className="monPanier">Mon Panier</div>
                 <div className="choiceContent">
                 <div className="choiceWrapper">

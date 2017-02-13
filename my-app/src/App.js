@@ -35,7 +35,6 @@ class App extends Component {
         </Modal>
 
         <button className="openBtn"
-
           onClick={this.toggleModal.bind(this)}>
           <a href="#" className="monnaie">MON PANIER <i className="fa fa-shopping-basket fa-2x"></i></a>
         </button>
